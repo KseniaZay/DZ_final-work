@@ -1,0 +1,31 @@
+body {
+    background: $gray;
+    font-family: graphik_lcgregular;
+}
+#wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    align-items: center;
+    @include container (100%, 1440px);
+    height: auto;
+    background: $white;
+    margin: 0 auto;
+    padding: 0 20px;
+}    
+.peach {
+    background: $peach;
+}
+.group {
+    background: $champagne;
+}
+.blue {
+    background: $blue;
+}
+.brown {
+    background: $brown;
+}
+

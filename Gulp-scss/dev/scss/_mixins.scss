@@ -1,0 +1,76 @@
+@mixin container($w, $mw) {
+    max-width: $mw;
+    width: $w;
+}
+@mixin text($w, $s, $h){
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;
+}
+@mixin textSmall($w, $s, $h){
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;
+}
+@mixin textlink($w, $s, $h){
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;
+}
+@mixin txt($w, $s, $h){
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+}
+@mixin txtSmall($w, $s, $h){
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+@mixin content($w, $s, $h){
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;
+}
+@mixin contentSmall($w, $s, $h){
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;
+}
+@mixin txtbig($w, $s, $h){
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;
+}
+@mixin textSmall($w, $s, $h){
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;   
+}
+@mixin cake($w, $s, $h){
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;   
+}
+@mixin chicken($w, $s, $h){
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;   
+}
+@mixin case ($w, $s, $h){
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;
+}
+@mixin list ($w, $s, $h){
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;
+}
+@mixin lists ($w, $s, $h){
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;
+}
+
+
