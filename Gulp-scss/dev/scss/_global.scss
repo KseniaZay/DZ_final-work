@@ -1,31 +1,18 @@
 body {
-    background: $gray;
-    font-family: graphik_lcgregular;
+
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 #wrapper {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
-.container {
-    display: flex;
-    align-items: center;
-    @include container (100%, 1440px);
+#header {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+}
+.conteiner {
+    position: relative;
+    width: 100%;
     height: auto;
-    background: $white;
-    margin: 0 auto;
     padding: 0 20px;
-}    
-.peach {
-    background: $peach;
 }
-.group {
-    background: $champagne;
-}
-.blue {
-    background: $blue;
-}
-.brown {
-    background: $brown;
-}
-
