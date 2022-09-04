@@ -1,2 +1,47 @@
-
-
+.foot-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background: $gray;
+   
+    .foot-container { 
+        .foot-container__adress {
+            color: $violet;
+            display: flex;
+            align-items: center;
+            address {
+                @include text (400, 16px, 20px);
+                font-style: normal;
+            }
+            .blue-link {
+                @include text (700, 12px, 15px);
+                margin: 0 20px;
+            }
+        }
+        .foot-container__contact {
+            display: flex;
+            align-items: center;
+            span {
+               font-size: 38px;
+            }
+            ul {
+                @include text (700, 16px, 20px);
+                display: flex;
+                align-items: center;
+                li {
+                    padding-right: 15px;
+                    color: $light-gray;
+                    .viole-link {
+                        color: $viole-gray;
+                        text-decoration: none;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+    .foot-txt {
+        color: $light-gray;  
+    }    
+}
+    

@@ -1,6 +1,5 @@
 body {
-    
-
+    min-width: 1440px;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 #wrapper {
@@ -9,13 +8,13 @@ body {
     overflow: hidden;
 }
 #header {
-    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: 0px 0px 12px 12px #CACADB, 0px 0px 0px 16 px black; 
-
+    .header-container {
+        background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: 0 12px 0 -6px  #CACADB, 0 20px 0 -8px #E7E7F2;
+    }
 }
-
 .conteiner {
     position: relative;
     width: 100%;
