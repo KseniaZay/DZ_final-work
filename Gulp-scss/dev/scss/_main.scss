@@ -2,12 +2,22 @@
     padding: 60px;
     display: flex;
     width: 100%;
-    border-radius: 12px;
+    @media (max-width: 374px) {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+        
+
+    }
     .main-head__blockquote-img {
         width: 30%;
         img {
             width: 100%;
             min-height: 100%;
+            border-radius: 12px 0 0 12px;
+            @media (max-width: 374px) {
+                border-radius: 12px 12px 0 0;
+            }
         }
     }
     .main-head__blockquote-area {
@@ -17,9 +27,14 @@
         background: $gray;
         padding: 15px;
         border-radius: 0 12px 12px 0;
+        @media (max-width: 374px) {
+            width: 30%;
+            border-radius: 0 0 12px 12px;
+        }
         .blue-link-tim{
             @include text (700, 14px, 17px);
-            padding-left: 40px;
+            padding-left: 30px;
+            margin-bottom: -40px;
             color: $blue;
             text-decoration: none;
             display: flex;
@@ -50,22 +65,36 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            margin: 0;
+            p {
+                padding-left: 30px;
+            }
         }
         cite {
             @include text (700, 16px, 20px);
             color: $light-gray;
-            padding-left: 40px;
             font-style: normal;
-        }
-        p {
-            padding-left: 40px;
+            span {
+                display: block;
+                margin-left: 30px;
+                padding: 5px 0;
+            }
         }
     }
+}
+.swiper-pagination-bullet{
+    width: 12px;
+    height: 12px;
+    background: $blue;
 }
 .main-logos {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    @media (max-width: 374px){
+        flex-direction: column;
+        align-items: center;
+    }
     .main-logos__block {
         width: 25%;
         img {
@@ -82,16 +111,26 @@
 .text-content {
     padding: 20px;
     background: $gray;
+    @media (max-width: 374px){
+        padding: 0;
+    }
     .text-content__card {
         display: flex;
         justify-content: space-between;
         border-bottom: 2px solid  #E6E6F0;
         padding-bottom: 20px;
+        @media (max-width: 374px) {
+            flex-direction: column;
+            align-items: center;
+        }
         .text-content__card__main {
             width: calc(100%/3);
             margin: 0 15px;
             background: $white;
             border-radius: 8px;
+            @media (max-width: 374px) {
+                margin: 20px;
+            }
             img {
                 min-width: 100%;
             }

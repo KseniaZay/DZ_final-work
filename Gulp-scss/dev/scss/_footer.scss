@@ -3,12 +3,20 @@
     justify-content: space-between;
     padding: 30px;
     background: $gray;
+    @media (max-width: 374px) {
+        flex-direction: column;
+        align-items: center;
+        
+    }
    
     .foot-container { 
         .foot-container__adress {
             color: $violet;
             display: flex;
             align-items: center;
+            @media (max-width: 374px) {
+                flex-direction: column;
+            }
             address {
                 @include text (400, 16px, 20px);
                 font-style: normal;
@@ -21,6 +29,9 @@
         .foot-container__contact {
             display: flex;
             align-items: center;
+            @media (max-width: 374px) {
+                flex-direction: column;
+            }
             span {
                font-size: 38px;
             }
@@ -28,9 +39,16 @@
                 @include text (700, 16px, 20px);
                 display: flex;
                 align-items: center;
+                @media (max-width: 374px) {
+                    flex-direction: column;
+                }
                 li {
                     padding-right: 15px;
                     color: $light-gray;
+                    @media (max-width: 374px) {
+                        list-style: none;
+                    }
+
                     .viole-link {
                         color: $viole-gray;
                         text-decoration: none;
@@ -38,6 +56,9 @@
                     }
                 }
             }
+        }
+        @media (max-width: 374px){
+            margin-left: -25px;
         }
     }
     .foot-txt {
