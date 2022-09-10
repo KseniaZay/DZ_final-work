@@ -3,18 +3,16 @@
     justify-content: space-between;
     padding: 30px;
     background: $gray;
-    @media (max-width: 374px) {
+    @media (max-width: 767px) {
         flex-direction: column;
         align-items: center;
-        
     }
-   
     .foot-container { 
         .foot-container__adress {
             color: $violet;
             display: flex;
             align-items: center;
-            @media (max-width: 374px) {
+            @media (max-width: 767px) {
                 flex-direction: column;
             }
             address {
@@ -29,7 +27,7 @@
         .foot-container__contact {
             display: flex;
             align-items: center;
-            @media (max-width: 374px) {
+            @media (max-width: 767px) {
                 flex-direction: column;
             }
             span {
@@ -39,30 +37,41 @@
                 @include text (700, 16px, 20px);
                 display: flex;
                 align-items: center;
-                @media (max-width: 374px) {
+                @media (max-width: 767px) {
                     flex-direction: column;
+                    margin: 0;
+                    padding: 0;
                 }
                 li {
                     padding-right: 15px;
                     color: $light-gray;
-                    @media (max-width: 374px) {
+                    @media (max-width: 767px) {
                         list-style: none;
                     }
-
                     .viole-link {
                         color: $viole-gray;
                         text-decoration: none;
                         font-weight: bold;
                     }
+                    .mail-blue {
+                        font-size: 22px;
+                        @media (min-width: 768px){
+                            font-size: 16px;
+                        }
+                    }
                 }
             }
         }
-        @media (max-width: 374px){
+        @media (max-width: 767px){
             margin-left: -25px;
         }
     }
     .foot-txt {
         color: $light-gray;  
+        font-size: 22px;
+        @media (min-width: 768px){
+            font-size: 16px;
+        }
     }    
 }
     

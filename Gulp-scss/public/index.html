@@ -14,7 +14,7 @@
 <body>
     <div id="wrapper">
         <header id="header">
-            <div class="conteiner header-container">
+            <div class="container">
                 <div class="box">
                     <div class="box__logo">
                         <a class="logo-link" href="#"><img src="./images/Logo.svg" alt="Logo"></a>
@@ -38,96 +38,118 @@
                                 </ul>
                             </div>
                         </div>
-                        <input id="oppener" type="checkbox">
-                        <lable for="oppener" class="oppener">
-                            <span>menu</span>
-                        </lable>
+                        <input id="opener" type="checkbox" checked>
+                        <label for="opener" class="opener">
+                            <span></span>
+                        </label>
                         <div class="box__info__nav">
                             <nav>
                                 <ul>
-                                    <li><a class="white-link" href="#">about us</a></li>
-                                    <li><a class="white-link" href="./service.html">services</a></li>
-                                    <li><a class="white-link" href="#">team</a></li>
-                                    <li><a class="white-link" href="#">publications</a></li>
-                                    <li><a class="white-link" href="#">contact</a></li>
+                                    <li><a class="white-link burger-menu" href="#">about us</a></li>
+                                    <li><a class="white-link burger-menu" href="./service.html">services</a></li>
+                                    <li><a class="white-link burger-menu" href="#">team</a></li>
+                                    <li><a class="white-link burger-menu" href="#">publications</a></li>
+                                    <li><a class="white-link burger-menu" href="#">contact</a></li>
                                 </ul>
                             </nav>
                         </div>  
                     </div>
                 </div>
-                <div class="simbol">
-                    <img src="./images/Symbol.svg" alt="simbol">
-                </div>
-                <div class="simbol-arrov">
-                    <p><i class="arrow down"></i></p>
-                </div>
-                <div class="simbol-text">
-                    <h2>you legal solutions provider</h2>
-                </div>
-                <div class="second-box">
-                    <div class="second-box__left">
-                        <div class="second-box__left__wrap">
-                            <a class="second-box__left__wrap__link"href="#">Consistent</a>
-                            <a class="second-box__left__wrap__link"href="#">Customer oriented</a>
-                            <a class="second-box__left__wrap__link"href="#">Innovative</a>
-                            <a class="second-box__left__wrap__link"href="#">Business oriented</a>
-                        </div>
-                    </div>
-                    <div class="second-box__right">
-                        <div class="second-box__right__wrap">
-                            <h3>We turn the idea of legal services</h3>
-                            <p>Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="text">
-                    <a class="blue-link-service" href="#">SERVICES <p><i class="arrow right"></i></p></a>
-                </div>
-                <h4>What can we do better than others?</h4>
-                <div class="box-cards">
-                    <div class="card">
-                        <img src="./images/Icon copy 4.svg" alt="Icon copy 4">
-                        <a class="blue-link" href="#"><h3>IT and e-commerce</h3></a>
-                        <p>An endless stream of contracts, tax issues, labor relations, corporate papers - legal work distracts you from doing business. But there is not much work to do to hire an in-house lawyer.</p>
-                    </div>
-                    <div class="card">
-                        <img src="./images/Icon.svg" alt="icon">
-                        <a class="blue-link" href="#"><h3>Comprehensive daily legal support</h3></a>
-                        <p>In addition, over time, the work will become the same type and uninteresting for a full-time lawyer. And we know very well how difficult it is to find a good candidate with experience in the field of information technology in Ukraine.</p>
-                    </div>
-                    <div class="card">
-                        <img src="./images/Icon copy 5.svg" alt="Icon copy 5">
-                        <a class="blue-link" href="#"><h3>Structuring corporate relationships</h3></a>
-                        <p>Instead of just providing legal services, we will hire a lawyer or a whole team that will fit into the daily life of your company.</p>
-                    </div>
-                    <div class="card">
-                        <img src="./images/Icon copy 3.svg" alt="Icon copy 3">
-                        <a class="blue-link" href="#"><h3>Building contractual relations</h3></a>
-                        <p>Once a week, or week after month, you have your own lawyer by your side. Anyone in the company can catch it at the coffee maker and just talk about current affairs instead of waiting for update status.</p>
-                    </div>
-                    <div class="card">
-                        <img src="./images/Icon copy 2.svg" alt="Icon copy 2">
-                        <a class="blue-link" href="#"><h3>Protection of business, intellectual property</h3></a>
-                        <p>And all the other time he will work on new diverse projects, so he will definitely not stop in professional development. One way or another, all Axon Partners will work for you instead of a corporate lawyer.</p>
-                    </div>
-                    <div class="card">
-                        <img src="./images/Icon copy.svg" alt="Icon copy">
-                        <a class="blue-link" href="#"><h3>Judicial representation</h3></a>
-                        <p>Is it a small, medium-sized company or a market leader? Local business or multinational company? Do you have your own legal department or not?</p>
-                    </div>
-                </div>
             </div>
         </header>
         <main id="main">
+            <div class="section-gradient">
+                <div class="container">
+                    <div class="simbol-text-wrap">
+                        <div class="simbol">
+                            <img src="./images/Symbol.svg" alt="simbol">
+                        </div>
+                        <div class="simbol-arrov">
+                            <a href="#"><p><i class="arrow down"></i></p></a>
+                        </div>
+                        <div class="simbol-text">
+                            <h2>you legal solutions provider</h2>
+                        </div>
+                    </div>
+                    <div class="second-box">
+                        <input id="id1" type="radio" name="r" checked>
+                        <input id="id2" type="radio" name="r">
+                        <input id="id3" type="radio" name="r">
+                        <input id="id4" type="radio" name="r">
+                        <div class="second-box__left">
+                            <ul class="second-box__left__wrap">
+                                <li> <label for="id1" class="second-box__left__wrap__link"href="#">Consistent</label></li>
+                                <li> <label for="id2" class="second-box__left__wrap__link"href="#">Customer oriented</label></li>
+                                <li> <label for="id3" class="second-box__left__wrap__link"href="#">Innovative</label></li>
+                                <li> <label for="id4" class="second-box__left__wrap__link"href="#">Business oriented</label></li>
+                            </ul>
+                        </div>
+                        <div class="second-box__right">
+                            <div class="second-box__right__wrap id1">
+                                <h3>1We turn the idea of legal services</h3>
+                                <p>Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.</p>
+                            </div>
+                            <div class="second-box__right__wrap id2">
+                                <h3>2We turn the idea of legal services</h3>
+                                <p>Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.</p>
+                            </div>
+                            <div class="second-box__right__wrap id3">
+                                <h3>3We turn the idea of legal services</h3>
+                                <p>Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.</p>
+                            </div>
+                            <div class="second-box__right__wrap id4">
+                                <h3>4We turn the idea of legal services</h3>
+                                <p>Consolidating many years of experience and practice, the company's lawyers accompany complex projects and achieve a number of important decisions for the industry. Many of them form the practice of applying the law of the sea in Ukraine.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="text">
+                            <a class="blue-link-service" href="#">SERVICES <p><i class="arrow right"></i></p></a>
+                        </div>
+                        <h4>What can we do better than others?</h4>
+                        <div class="box-cards">
+                            <div class="card">
+                                <img src="./images/Icon copy 4.svg" alt="Icon copy 4">
+                                <a class="blue-link" href="#"><h3>IT and e-commerce</h3></a>
+                                <p>An endless stream of contracts, tax issues, labor relations, corporate papers - legal work distracts you from doing business. But there is not much work to do to hire an in-house lawyer.</p>
+                            </div>
+                            <div class="card">
+                                <img src="./images/Icon.svg" alt="icon">
+                                <a class="blue-link" href="#"><h3>Comprehensive daily legal support</h3></a>
+                                <p>In addition, over time, the work will become the same type and uninteresting for a full-time lawyer. And we know very well how difficult it is to find a good candidate with experience in the field of information technology in Ukraine.</p>
+                            </div>
+                            <div class="card">
+                                <img src="./images/Icon copy 5.svg" alt="Icon copy 5">
+                                <a class="blue-link" href="#"><h3>Structuring corporate relationships</h3></a>
+                                <p>Instead of just providing legal services, we will hire a lawyer or a whole team that will fit into the daily life of your company.</p>
+                            </div>
+                            <div class="card">
+                                <img src="./images/Icon copy 3.svg" alt="Icon copy 3">
+                                <a class="blue-link" href="#"><h3>Building contractual relations</h3></a>
+                                <p>Once a week, or week after month, you have your own lawyer by your side. Anyone in the company can catch it at the coffee maker and just talk about current affairs instead of waiting for update status.</p>
+                            </div>
+                            <div class="card">
+                                <img src="./images/Icon copy 2.svg" alt="Icon copy 2">
+                                <a class="blue-link" href="#"><h3>Protection of business, intellectual property</h3></a>
+                                <p>And all the other time he will work on new diverse projects, so he will definitely not stop in professional development. One way or another, all Axon Partners will work for you instead of a corporate lawyer.</p>
+                            </div>
+                            <div class="card">
+                                <img src="./images/Icon copy.svg" alt="Icon copy">
+                                <a class="blue-link" href="#"><h3>Judicial representation</h3></a>
+                                <p>Is it a small, medium-sized company or a market leader? Local business or multinational company? Do you have your own legal department or not?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
             <div class="container">
                 <div class="swiper">
-                    <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
-                      <!-- Slides -->
                         <div class="swiper-slide">
                             <div class="main-head">
                                 <div class="main-head__blockquote-img">
-                                     <img class="border-img" src="./images/Team-1.svg" alt="photo">
+                                    <img class="border-img" src="./images/Team-1.svg" alt="photo">
                                 </div>
                                 <div class="main-head__blockquote-area">
                                     <a class="blue-link-tim" href="#"> КОМАНДА<p><i class="arrow right"></i></p></a>
@@ -170,7 +192,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- If we need pagination -->
                     <div class="swiper-pagination"></div>
                 </div>
                 <div class="text-center">They already trust us</div>
@@ -228,31 +249,30 @@
                 </div>
             </div>
         </main>
+        <footer id="footer">
+            <div class="container">
+                <div class="foot-wrap">
+                    <div class="foot-container">
+                        <div class="foot-container__adress">
+                            <address>Kiyv, Mechnikova str,14/1</address>
+                            <a class="blue-link" href="#">ON MAP</a>
+                        </div>
+                        <div class="foot-container__contact">
+                            <a class="blue-link" href="#"><span class="icon-facebook"></span></a>
+                            <ul>
+                                <li><a class="viole-link" href="tel:+380800211927">0800 211 927</a></li>
+                                <li><a class="blue-link mail-blue" href="mailto:contact@forstudy.space">contact@forstudy.space</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="foot-txt">
+                        <p>© 2021 HLEGAL Law company, LLC</p>
+                    </div>
+                </div>
+            </div>  
+        </footer>
     </div>
-    <footer id="footer">
-        <div class="container">
-            <div class="foot-wrap">
-                <div class="foot-container">
-                    <div class="foot-container__adress">
-                        <address>Kiyv, Mechnikova str,14/1</address>
-                        <a class="blue-link" href="#">ON MAP</a>
-                    </div>
-                    <div class="foot-container__contact">
-                        <a class="blue-link" href="#"><span class="icon-facebook"></span></a>
-                        <ul>
-                            <li><a class="viole-link" href="tel:+380800211927">0800 211 927</a></li>
-                            <li><a class="blue-link" href="mailto:contact@forstudy.space">contact@forstudy.space</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="foot-txt">
-                    <p>© 2021 HLEGAL Law company, LLC</p>
-                </div>
-            </div>
-        </div>
-        
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
             loop: true,
@@ -263,7 +283,5 @@
             },
         });
     </script>
-
     </body>
-
 </html>

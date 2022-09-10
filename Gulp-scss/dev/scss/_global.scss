@@ -1,5 +1,5 @@
 body {
-    min-width: 1440px;
+    max-width: 100%;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 #wrapper {
@@ -8,16 +8,13 @@ body {
     overflow: hidden;
 }
 #header {
-    .header-container {
-        background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        box-shadow: 0 12px 0 -6px  #CACADB, 0 20px 0 -8px #E7E7F2;
-    }
-}
-.conteiner {
-    position: relative;
+    position: absolute;
     width: 100%;
-    height: auto;
+    z-index: 1;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
     padding: 0 20px;
 }
